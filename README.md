@@ -27,31 +27,41 @@ Assign ports to VLANs
 Configure trunk port to router
 
 
-Switch> enable
+Switch> enable 
+
 Switch# configure terminal
+
 Switch(config)# interface range fa0/2-4
+
 Switch(config-if-range)# switchport access vlan 10
+
 Switch(config)# interface fa0/1
+
 Switch(config-if)# switchport mode trunk
 
 # Router (Router-on-a-stick)
 Enable subinterfaces for inter-VLAN routing
 
 interface gig0/0.10
- encapsulation dot1Q 10
- ip address 192.168.1.1 255.255.255.192
+
+encapsulation dot1Q 10
+
+ip address 192.168.1.1 255.255.255.192
  
 # DHCP
 Enable DHCP on router for automatic IP assignment
 
-
 ip dhcp pool Admin-pool
+
  network 192.168.1.0 255.255.255.192
+ 
  default-router 192.168.1.1
+ 
  dns-server 192.168.1.1
  
 # Wireless Configuration
 Configured wireless access points with SSIDs and WPA2 passwords
+
 Laptops and smartphones connected wirelessly to VLANs and received IPs automatically
 
 # Testing
