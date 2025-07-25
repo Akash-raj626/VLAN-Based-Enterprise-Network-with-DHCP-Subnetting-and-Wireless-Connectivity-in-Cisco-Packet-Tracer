@@ -72,19 +72,26 @@ Successfully verified inter-VLAN communication using the ping command
 # Tools & Technologies
 
 Cisco Packet Tracer
+
 VLANs (802.1Q)
+
 DHCP
+
 Router-on-a-stick
+
 Wireless networking
+
 Subnetting
 
 # Files in This Repository
 
 Enterprise_Network.pkt – Cisco Packet Tracer project file
+
 README.md – Project explanation
 
 # Screenshot 
 <img width="940" height="356" alt="image" src="https://github.com/user-attachments/assets/59004139-521a-472d-a5df-e09ff69f2420" />
+
 <img width="940" height="931" alt="image" src="https://github.com/user-attachments/assets/68bef741-9158-4536-813f-3e768590be64" />
 
 
@@ -92,5 +99,7 @@ README.md – Project explanation
 # How to Open
 
 Download and install Cisco Packet Tracer
+
 Open the .pkt file from this repository
+
 Check the configurations or modify as needed
